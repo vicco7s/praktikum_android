@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="danger">#F44336</color>
     <color name="success">#8BC34A</color>
+    <color name="indigo800">#283593</color>
 
 </resources>
