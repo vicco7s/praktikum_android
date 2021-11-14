@@ -5,8 +5,10 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import android.content.Intent
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -22,9 +24,17 @@ class MainActivity : AppCompatActivity() {
 
         simpanButton.setOnClickListener {
             val nama = namaEditText.text.toString()
+            val email = emailEditText.text.toString()
             var jumlahSks = jumlahSksEditText.text.toString().toInt()
             jumlahSks = 160 - jumlahSks
             Toast.makeText(this,"Sisa SKS... $jumlahSks",Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(this,ResultActivity::class.java)
+            intent.putExtra("nama",nama)
+            intent.putExtra("email",email)
+            intent.putExtra("jumlah_sks",jumlahSks)
+            startActivity(intent)
+
         }
 
         batalButton.setOnClickListener {
