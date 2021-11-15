@@ -8,85 +8,109 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/nama"
-        />
-
-    <EditText
-        android:id="@+id/namaEditText"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/isi_nama_lengkap"
-        android:inputType="textPersonName"
-        android:autofillHints="name"
-        android:layout_marginBottom="8dp"
-        />
+        app:boxStrokeColor="@color/indigo800"
+        android:textColorHint="@color/indigo800"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/email"
-        />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/namaEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/indigo800"
+            android:hint="@string/nama"
+            android:autofillHints="name"
+            android:layout_marginBottom="8dp"
+            />
 
-    <EditText
-        android:id="@+id/emailEditText"
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/isi_dengan_email_valid"
-        android:inputType="textEmailAddress"
-        android:autofillHints="emailAddress"
-        android:layout_marginBottom="8dp"
-        />
+        app:boxStrokeColor="@color/indigo800"
+        android:textColorHint="@color/indigo800"
+        android:textColor="@color/indigo800"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/phone"
-        />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Email"
+            android:textColor="@color/indigo800"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"
+            android:layout_marginBottom="8dp"
+            />
 
-    <EditText
-        android:id="@+id/phoneEditText"
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/isi_dengan_nomor_yang_aktif"
-        android:inputType="phone"
-        android:autofillHints="phone"
-        android:layout_marginBottom="8dp"
-        />
+        app:boxStrokeColor="@color/indigo800"
+        android:textColorHint="@color/indigo800"
+        android:textColor="@color/indigo800"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tanggal_lahir"
-        />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/indigo800"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:autofillHints="phone"
+            android:layout_marginBottom="8dp"
+            />
 
-    <EditText
-        android:id="@+id/tanggalLahirEditText"
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/isi_tanggal_lahir"
-        android:inputType="date"
-        android:autofillHints="name"
-        android:layout_marginBottom="8dp"
-        />
+        app:boxStrokeColor="@color/indigo800"
+        android:textColorHint="@color/indigo800"
+        android:textColor="@color/indigo800"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/jumlah_sks"
-        />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tanggalLahirEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tanggal_lahir"
+            android:textColor="@color/indigo800"
+            android:inputType="date"
+            android:autofillHints="name"
+            android:layout_marginBottom="8dp"
+            />
 
-    <EditText
-        android:id="@+id/jumlahSksEditText"
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/isi_dengan_jumlah_sks_yang_sudah_ditempuh"
-        android:inputType="number"
-        android:autofillHints="name"
-        android:layout_marginBottom="8dp"
-        />
+        app:boxStrokeColor="@color/indigo800"
+        android:textColorHint="@color/indigo800"
+        android:textColor="@color/indigo800"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/jumlahSksEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/jumlah_sks"
+            android:textColor="@color/indigo800"
+            android:inputType="number"
+            android:autofillHints="name"
+            android:layout_marginBottom="8dp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

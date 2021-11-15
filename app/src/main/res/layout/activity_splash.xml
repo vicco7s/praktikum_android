@@ -17,15 +17,6 @@
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/logo" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/aplikasi_android_ku"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        />
-
-
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:layout_width="50dp"
         android:layout_height="50dp"
