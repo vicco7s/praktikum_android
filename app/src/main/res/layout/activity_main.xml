@@ -11,8 +11,10 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:hintTextColor="@color/indigo800"
         app:boxStrokeColor="@color/indigo800"
         android:textColorHint="@color/indigo800"
+        android:textColor="@color/indigo800"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -31,6 +33,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:hintTextColor="@color/indigo800"
         app:boxStrokeColor="@color/indigo800"
         android:textColorHint="@color/indigo800"
         android:textColor="@color/indigo800"
@@ -52,6 +55,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:hintTextColor="@color/indigo800"
         app:boxStrokeColor="@color/indigo800"
         android:textColorHint="@color/indigo800"
         android:textColor="@color/indigo800"
@@ -73,6 +77,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:hintTextColor="@color/indigo800"
         app:boxStrokeColor="@color/indigo800"
         android:textColorHint="@color/indigo800"
         android:textColor="@color/indigo800"
@@ -94,6 +99,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:hintTextColor="@color/indigo800"
         app:boxStrokeColor="@color/indigo800"
         android:textColorHint="@color/indigo800"
         android:textColor="@color/indigo800"
@@ -116,15 +122,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="end"
-        >
+        android:gravity="center">
         <Button
             android:id="@+id/simpanButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/simpan"
-            android:backgroundTint="@color/success"
-            android:drawableLeft="@drawable/ic_baseline_save_24"
+            android:textColor="@color/success"
+            android:background="@drawable/my_button_bg"
             android:layout_marginEnd="8dp"
             />
         <Button
@@ -132,8 +137,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/batal"
-            android:backgroundTint="@color/danger"
-            android:drawableLeft="@drawable/ic_baseline_cancel_24"
+            android:textColor="@color/danger"
+            android:background="@drawable/my_button_cn"
             />
     </LinearLayout>
 

@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/drawable-v24/my_button_cn.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/drawable/back_button_image.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/drawable/button_cancel.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/drawable/greenprogress.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/drawable/ic_baseline_save_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/drawable/my_button_cancel.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/drawable/my_button_cn.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/layout/activity_result.xml" value="0.20018115942028986" />
         <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Users/cero/StudioProjects/praktikum_android/app/src/main/res/layout/layout.xml" value="0.1" />
         <entry key="..\:/Users/cero/StudioProjects/praktikum_android2/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
       </map>
     </option>
