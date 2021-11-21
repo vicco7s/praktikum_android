@@ -7,139 +7,148 @@
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".MainActivity">
-
-    <com.google.android.material.textfield.TextInputLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:hintTextColor="@color/indigo800"
-        app:boxStrokeColor="@color/indigo800"
-        android:textColorHint="@color/indigo800"
-        android:textColor="@color/indigo800"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/namaEditText"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
+            app:hintTextColor="@color/indigo800"
+            app:boxStrokeColor="@color/indigo800"
+            android:textColorHint="@color/indigo800"
             android:textColor="@color/indigo800"
-            android:hint="@string/nama"
-            android:autofillHints="name"
-            android:layout_marginBottom="8dp"
-            />
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-    </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/namaEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textColor="@color/indigo800"
+                android:hint="@string/nama"
+                android:autofillHints="name"
+                android:layout_marginBottom="8dp"
+                />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:hintTextColor="@color/indigo800"
-        app:boxStrokeColor="@color/indigo800"
-        android:textColorHint="@color/indigo800"
-        android:textColor="@color/indigo800"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/emailEditText"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Email"
+            app:hintTextColor="@color/indigo800"
+            app:boxStrokeColor="@color/indigo800"
+            android:textColorHint="@color/indigo800"
             android:textColor="@color/indigo800"
-            android:inputType="textEmailAddress"
-            android:autofillHints="emailAddress"
-            android:layout_marginBottom="8dp"
-            />
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-    </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Email"
+                android:textColor="@color/indigo800"
+                android:inputType="textEmailAddress"
+                android:autofillHints="emailAddress"
+                android:layout_marginBottom="8dp"
+                />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:hintTextColor="@color/indigo800"
-        app:boxStrokeColor="@color/indigo800"
-        android:textColorHint="@color/indigo800"
-        android:textColor="@color/indigo800"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/phoneEditText"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:hintTextColor="@color/indigo800"
+            app:boxStrokeColor="@color/indigo800"
+            android:textColorHint="@color/indigo800"
             android:textColor="@color/indigo800"
-            android:hint="@string/phone"
-            android:inputType="phone"
-            android:autofillHints="phone"
-            android:layout_marginBottom="8dp"
-            />
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-    </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/npmEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/indigo800"
+                android:hint="@string/npm"
+                android:inputType="phone"
+                android:autofillHints="npm"
+                android:layout_marginBottom="8dp"
+                />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:hintTextColor="@color/indigo800"
-        app:boxStrokeColor="@color/indigo800"
-        android:textColorHint="@color/indigo800"
-        android:textColor="@color/indigo800"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/tanggalLahirEditText"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/tanggal_lahir"
+            app:hintTextColor="@color/indigo800"
+            app:boxStrokeColor="@color/indigo800"
+            android:textColorHint="@color/indigo800"
             android:textColor="@color/indigo800"
-            android:inputType="date"
-            android:autofillHints="name"
-            android:layout_marginBottom="8dp"
-            />
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-    </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tanggalLahirEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tanggal_lahir"
+                android:textColor="@color/indigo800"
+                android:inputType="date"
+                android:autofillHints="name"
+                android:layout_marginBottom="8dp"
+                />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:hintTextColor="@color/indigo800"
-        app:boxStrokeColor="@color/indigo800"
-        android:textColorHint="@color/indigo800"
-        android:textColor="@color/indigo800"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/jumlahSksEditText"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/jumlah_sks"
+            app:hintTextColor="@color/indigo800"
+            app:boxStrokeColor="@color/indigo800"
+            android:textColorHint="@color/indigo800"
             android:textColor="@color/indigo800"
-            android:inputType="number"
-            android:autofillHints="name"
-            android:layout_marginBottom="8dp"
-            />
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-    </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/jumlahSksEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/jumlah_sks"
+                android:textColor="@color/indigo800"
+                android:inputType="number"
+                android:autofillHints="name"
+                android:layout_marginBottom="8dp"
+                />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-        <Button
-            android:id="@+id/simpanButton"
-            android:layout_width="wrap_content"
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/simpan"
-            android:textColor="@color/success"
-            android:background="@drawable/my_button_bg"
-            android:layout_marginEnd="8dp"
-            />
-        <Button
-            android:id="@+id/batalButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/batal"
-            android:textColor="@color/danger"
-            android:background="@drawable/my_button_cn"
-            />
-    </LinearLayout>
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/simpanButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/simpan"
+                android:textColor="@color/success"
+                android:background="@drawable/my_button_bg"
+                android:layout_marginEnd="8dp"
+                />
+            <Button
+                android:id="@+id/batalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/batal"
+                android:textColor="@color/danger"
+                android:background="@drawable/my_button_cn"
+                />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

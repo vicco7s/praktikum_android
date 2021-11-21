@@ -18,13 +18,15 @@ class MainActivity : AppCompatActivity() {
 
         val namaEditText = findViewById<EditText>(R.id.namaEditText)
         val emailEditText = findViewById<EditText>(R.id.emailEditText)
-        val phoneEditText = findViewById<EditText>(R.id.phoneEditText)
+        val npmEditText = findViewById<EditText>(R.id.npmEditText)
         val tanggalLahirEditText = findViewById<EditText>(R.id.tanggalLahirEditText)
         val jumlahSksEditText = findViewById<EditText>(R.id.jumlahSksEditText)
 
         simpanButton.setOnClickListener {
             val nama = namaEditText.text.toString()
             val email = emailEditText.text.toString()
+            val npm = npmEditText.text.toString()
+            val tangal = tanggalLahirEditText.text.toString()
             var jumlahSks = jumlahSksEditText.text.toString().toInt()
             jumlahSks = 160 - jumlahSks
             Toast.makeText(this,"Sisa SKS... $jumlahSks",Toast.LENGTH_SHORT).show()
@@ -32,6 +34,8 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,ResultActivity::class.java)
             intent.putExtra("nama",nama)
             intent.putExtra("email",email)
+            intent.putExtra("npm",npm)
+            intent.putExtra("tanggal",tangal)
             intent.putExtra("jumlah_sks",jumlahSks)
             startActivity(intent)
 

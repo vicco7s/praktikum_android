@@ -35,5 +35,18 @@
         tools:text="viccodwipramadain@gmail.com"
         android:textSize="20sp"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/npm"
+        />
+
+    <TextView
+        android:id="@+id/npmEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="19630771"
+        android:textSize="20sp"
+        />
 
 </LinearLayout>
